@@ -1,0 +1,17 @@
+---
+# defaults file for lamp_compose
+
+repertoire_projet: /opt
+
+MYSQL:
+ DATABASE: wordpress
+ USER: wordpress
+ PASSWORD: secret
+ PORT: 3306
+
+APACHE:
+ PORT: 80
+
+PHPMYADMIN:
+ PORT: 8080
+
